@@ -32,9 +32,9 @@ export default function Home({ cars }) {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/fl-logo.png"
+            src="/fl-logo-dark.png"
             alt="Flying Lugnut Logo"
-            width={180}
+            width={200}
             height={180}
             priority
           />
