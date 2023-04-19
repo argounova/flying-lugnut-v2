@@ -47,7 +47,7 @@ export default function Home({ cars }) {
                         productTitle={ car.make + ' ' + car.model }
                         productSubtitle={ car.trim }
                         productImage={ car.mainImage }
-                        productView={ `/cars/${car.id}` }
+                        productView={ `/product?id=${car._id}` }
                     />
                 ))}
         </div>
